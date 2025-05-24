@@ -1,4 +1,4 @@
-export const products = [
+ const products = [
   {
     id: 1,
     name: "Loose Fit Bermuda Shorts",
@@ -81,3 +81,8 @@ export const products = [
     image: "/img/image 9.png",
   }
 ];
+
+
+export default function getProducts() {
+  return products;
+}
